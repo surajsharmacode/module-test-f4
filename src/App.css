@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App nav{
+  padding: 15px;
+  background-color: orange;
+}
+.navbar li{
+  display: inline-flex;
+  margin-left: 10px;
+}
+.post-list {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 350px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.post-details {
+  margin-top: 10px;
+}
+.post-title{
+  color: gray;
+}
+.post-body{
+  color: gray;
+}
+
